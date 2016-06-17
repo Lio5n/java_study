@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+	<bean id="knigh" class="com.springinaction.knight.BraveKnight">
+		<constructor-arg ref="quest" />
+	</bean>
+	
+	<bean id="quest" calss="com.springinaction.knight.SlayDragonQuest">
+		<constructor-arg value="#{T(System).out" />
+	</bean>
+	
+</beans>
