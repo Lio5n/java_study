@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="knigh" class="com.springinaction.knight.BraveKnight">
 		<constructor-arg ref="quest" />
 	</bean>
 	
-	<bean id="quest" calss="com.springinaction.knight.SlayDragonQuest">
+	<bean id="quest" class="com.springinaction.knight.SlayDragonQuest">
 		<constructor-arg value="#{T(System).out" />
 	</bean>
 	
