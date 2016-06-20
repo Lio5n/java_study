@@ -1,6 +1,0 @@
-test_merge
-<<<<<<< HEAD
-bbbb
-=======
-aaa
->>>>>>> refs/remotes/origin/master
