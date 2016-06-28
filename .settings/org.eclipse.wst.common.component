@@ -2,6 +2,7 @@
     <wb-module deploy-name="study_spring">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent"/>
         <property name="context-root" value="study_spring"/>
         <property name="java-output-path" value="/study_spring/build/classes"/>
